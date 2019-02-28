@@ -2,12 +2,75 @@
 <head>
 <meta name="viewport" content="width=device-width" charset="utf-8">
 <link rel="stylesheet" type="text/css" href="Salkcinng.github.io/style.css">
+<!--<link rel="stylesheet" type="text/css" href="style.css">-->
 </head>
 
-      
-<h1>Hello welcome to my page.</h1>
+<header class="header">
+	<div class="wrap">
+		<a class="site-title">
+			Salkcinng
+		</a>
+		<nav class="site-nav">
+			<a class="page-link">
+				About
+			</a>
+			<a class="page-link">
+				NRBScience Project
+			</a>
+		</nav>	
+	</div>
+</header>
 
-<h2>Current Project: NRBScience</h2>
+<div class="page-content">
+	<div class="wrap">
+		<div class="post">
+			<header class="post-header">
+				<h1>NRBScience</h1>
+				<p class="meta">BSc, 2019</p>
+			</header>
+			<article class="post-content">
+				<h2>Background</h2>
+				<p>
+					Sentence compression is a form of text simplification, that can be described as the task of producing a summary of a sentence, or condensing the sentence. However the compressed sentence, should preserve the most important content of the sentence and remain grammatically correct. In order to produce sentence compression models we first need to collect the data. Data collection is an important aspect of any type of research, and we will focus on how to collect large amounts of data, for sentence compression models, requiring human intelligence. You can use different kinds of data for sentence compression, but we will focus on reading speed for individual words. 
+				</p>
+
+				<p>
+					Finding a large amount of people to give you the data you need, is a difficult task on its own. Thus for this project we will be using Amazon Mechanical Turk (AMT), to find people (workers) to collect reading speed data from. AMT is a crowdsourcing marketplace, allowing individuals and businesses to outsource Human Intelligence Tasks (HIT) to a crowd (workers) that can virtually perform the tasks. Thus the purpose of our project is to provide a way (create a series of scripts/programs) to successfully use AMT, to gather large amounts of reading speed data for sentence compression models.
+				</p>
+
+				<h2>Problem Definition</h2>
+				<p>
+					In <a href="http://www.aclweb.org/anthology/N16-1179">article</a>, the authors used eye-tracking data to improve sentence compression, i.e., the task of simplifying sentences to make them more readable for dyslexics. Eye-tracking data is expensive to obtain, but is known to correlate with self-paced reading data. In our BSc thesis, we therefore further develop a graphical reading interface, from a previous project, for collecting self-paced reading data, using Amazon Mechanical Turk to collect such data. We then replicate the experiments in [1] to see if self-paced reading data is as effective as eye-tracking data in improving deep multi-task architectures for sentence compression. Finally, we investigate the usefulness of self-paced reading data for other tasks, also.
+				</p>
+			</article>
+		</div>	
+	</div>
+</div>	
+
+<footer class="site-footer">
+	<div class="wrap">
+		<div class="footer-col-1  column">
+			<ul>
+				<li>Salkcinng</li>
+			</ul>
+		</div>
+		<div class="footer-col-2  column">
+			<ul>
+				<li>
+					<a href="https://github.com/Salkcinng">Github</a>
+				</li>
+			</ul>
+		</div>
+		<div class="footer-col-3  column">
+			<ul>
+				<li>
+					Student of Computer Science
+				</li>
+			</ul>
+		</div>
+	</div>
+</footer>
+
 
 
 <script type="text/javascript" src="script.js"></script>
